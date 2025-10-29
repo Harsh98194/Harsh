@@ -1,0 +1,10 @@
+docker --version docker version 28.3.3
+docker pull ubuntu
+docker run -it ubuntu
+ls
+pwd
+echo "Hello from inside the container"
+exit
+docker images
+docker run -d -[ 0000:00 nginx
+docker ps
