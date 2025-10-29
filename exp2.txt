@@ -1,0 +1,9 @@
+git clone https://github.com/Harsh98194/Harsh.git
+ cd Harsh
+  echo "This is harsh's remote demo" > remote.txt
+   git add .
+    git commit -m "Added remote demo file by harsh"
+     git push origin main
+       git pull origin main
+        ls
+cat remote.txt
