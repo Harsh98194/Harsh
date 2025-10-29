@@ -1,0 +1,18 @@
+Git bash Example-1
+nano hello.sh
+#!/bin/bash
+echo "Hello, Welcome to Shell Scripting!"
+
+chmod +x hello.sh
+ ./hello.sh
+
+
+Example-2
+nano calculator.sh
+echo "Enter two Numbers:"
+read a
+read b
+echo "Sum + $(($a + $b))"
+chmod +x calculator.sh
+./calculator.sh
+
